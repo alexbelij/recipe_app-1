@@ -5,26 +5,19 @@ A simple flutter demo project following [Michael Krol](https://github.com/krolmi
 
 
 ## Getting Started
-Here is the list of articles:
-1. [First article](https://medium.com/@michael.krol/simple-recipes-app-made-in-flutter-introduction-c80964167a19)
-2. [Second article](https://medium.com/@michael.krol/simple-recipes-app-made-in-flutter-list-view-283ef85f91e7)
-3. [Third article](https://medium.com/flutter-community/simple-recipes-app-made-in-flutter-firebase-and-google-sign-in-14d1535e9a59)
-4. [Fourth article](https://medium.com/flutter-community/simple-recipes-app-made-in-flutter-firestore-f386722102da)
-5. [Fifth article](https://medium.com/flutter-community/simple-recipes-app-made-in-flutter-detail-view-and-settings-widget-9a7ca9ebec93)
 
----
-### Branches
-Branches are regarding to articles:
+1. Introduction - [Simple Recipes App made in Flutter — Introduction](https://medium.com/@michael.krol/simple-recipes-app-made-in-flutter-introduction-c80964167a19)
 
-01_introduction - [Simple Recipes App made in Flutter — Introduction](https://medium.com/@michael.krol/simple-recipes-app-made-in-flutter-introduction-c80964167a19)
+2. List detail View - [Simple Recipes App made in Flutter  —  List View](https://medium.com/@michael.krol/simple-recipes-app-made-in-flutter-list-view-283ef85f91e7)
 
-02_list_detail_view - [Simple Recipes App made in Flutter  —  List View](https://medium.com/@michael.krol/simple-recipes-app-made-in-flutter-list-view-283ef85f91e7)
+3. Firebase - [Simple Recipes App made in Flutter  —  Firebase and Google Sign-In](https://medium.com/flutter-community/simple-recipes-app-made-in-flutter-firebase-and-google-sign-in-14d1535e9a59)
 
-03_firebase - [Simple Recipes App made in Flutter  —  Firebase and Google Sign-In](https://medium.com/flutter-community/simple-recipes-app-made-in-flutter-firebase-and-google-sign-in-14d1535e9a59)
+4. Firestore - [Simple Recipes App made in Flutter  —  Firestore](https://medium.com/flutter-community/simple-recipes-app-made-in-flutter-firestore-f386722102da)
 
-04_firestore - [Simple Recipes App made in Flutter  —  Firestore](https://medium.com/flutter-community/simple-recipes-app-made-in-flutter-firestore-f386722102da)
+5. Settings - [Simple Recipes App made in Flutter — Detail View and Settings Widget](https://medium.com/flutter-community/simple-recipes-app-made-in-flutter-detail-view-and-settings-widget-9a7ca9ebec93)
 
-05_settings - [Simple Recipes App made in Flutter — Detail View and Settings Widget](https://medium.com/flutter-community/simple-recipes-app-made-in-flutter-detail-view-and-settings-widget-9a7ca9ebec93)
+
+
 
 
 ---
