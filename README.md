@@ -26,10 +26,10 @@ Below is a list of articles for the sample app as well as accompanying [github b
 | Article #        | Progress           | Remark|
 | ------------- |:-------------:| ---|
 | 1      | ✅ | done |
-| 2      | ❌ | wip |
-| 3      | ❌ | wip |
-| 4      | ❌ | wip |
-| 5      | ❌ | wip |
+| 2      | ❌ | WIP |
+| 3      | ❌ | WIP |
+| 4      | ❌ | WIP |
+| 5      | ❌ | WIP |
 
 
 
