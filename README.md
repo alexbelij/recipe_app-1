@@ -5,8 +5,18 @@ A new simple flutter demo project following [Michael Krol](https://github.com/kr
 
 
 ## Getting Started
+Here is the list of articles:
+1. [First article](https://medium.com/@michael.krol/simple-recipes-app-made-in-flutter-introduction-c80964167a19)
+2. [Second article](https://medium.com/@michael.krol/simple-recipes-app-made-in-flutter-list-view-283ef85f91e7)
+3. [Third article](https://medium.com/flutter-community/simple-recipes-app-made-in-flutter-firebase-and-google-sign-in-14d1535e9a59)
+4. [Fourth article](https://medium.com/flutter-community/simple-recipes-app-made-in-flutter-firestore-f386722102da)
 
-This project is a starting point for a Flutter application.
+
+
+
+
+
+
 
 A few resources to get you started if this is your first Flutter project:
 
