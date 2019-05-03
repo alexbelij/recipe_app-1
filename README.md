@@ -1,6 +1,8 @@
-# recipe_app
+# ![alt text](https://github.com/enigmatic7earth/Recipes_app/blob/master/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-72.png "Recepies - Flutter app") Recipes app
 
-A new Flutter project.
+A new simple flutter demo project following [Michael Krol](https://github.com/krolmic)'s [articles](https://medium.com/@michael.krol) on Medium.
+
+
 
 ## Getting Started
 
