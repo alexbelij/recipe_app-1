@@ -5,7 +5,7 @@ A simple flutter demo project following [Michael Krol](https://github.com/krolmi
 
 
 ## Getting Started
-Below is a list of articles for the sample app as well as accompanying github branches
+Below is a list of articles for the sample app as well as accompanying [github branches](https://github.com/krolmic/recipes_app/branches)
 1. 01_introduction - [Simple Recipes App made in Flutter — Introduction](https://medium.com/@michael.krol/simple-recipes-app-made-in-flutter-introduction-c80964167a19)
 
 2. 02_list_detail_view - [Simple Recipes App made in Flutter  —  List View](https://medium.com/@michael.krol/simple-recipes-app-made-in-flutter-list-view-283ef85f91e7)
