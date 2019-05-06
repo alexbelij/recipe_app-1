@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'google_sign_in_button.dart';
+import 'package:recipe_app/ui/google_sign_in_button.dart';
 
 
 class LoginScreen extends StatelessWidget {

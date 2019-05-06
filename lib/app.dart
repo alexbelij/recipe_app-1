@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'theme.dart';
-import 'login.dart';
-import 'home.dart';
+import 'ui/theme.dart';
+import 'screens/login.dart';
+import 'screens/home.dart';
 
 class RecipesApp extends StatelessWidget {
   @override
