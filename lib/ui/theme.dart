@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:recipe_app/constants.dart';
 
 ThemeData buildTheme() {
   // We're going to define all of our font styles
@@ -8,7 +9,18 @@ ThemeData buildTheme() {
       headline: base.headline.copyWith(
         fontFamily: 'Satisfy',
         fontSize: 70.0,
-        color: const Color(0xFFf95741),
+        color: orangeSoda,
+      ),
+
+      // Used for the recipes' title:
+      title: base.title.copyWith(
+        fontFamily: 'Merriweather',
+        fontSize: 15.0,
+        color: outerSpace,
+      ),
+      // Used for the recipes' duration:
+      caption: base.caption.copyWith(
+        color: outerSpace,
       ),
     );
   }
@@ -19,5 +31,15 @@ ThemeData buildTheme() {
   // And apply changes on it:
   return base.copyWith(
     textTheme: _buildTextTheme(base.textTheme),
+    // New code:
+    primaryColor: middleGreenYellow,
+    indicatorColor: orangeSoda,
+    scaffoldBackgroundColor: platinum,
+    accentColor: orangeSoda,
+    iconTheme: IconThemeData(
+      color: urobilin,
+      size: 20.0,
+    ),
+    buttonColor: Colors.white,
   );
 }

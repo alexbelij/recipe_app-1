@@ -63,7 +63,7 @@ class HomeScreenState extends State<HomeScreen> {
           // We set Size equal to passed height (50.0) and infinite width:
           preferredSize: Size.fromHeight(50.0),
           child: AppBar(
-            backgroundColor: Colors.white,
+            backgroundColor: Theme.of(context).primaryColor,
             elevation: 2.0,
             bottom: TabBar(
               labelColor: Theme.of(context).indicatorColor,
