@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 
 import 'package:recipe_app/model/recipe.dart';
 import 'package:recipe_app/utils/store.dart';
+import 'package:recipe_app/ui/recipe_card.dart';
 
 class HomeScreen extends StatefulWidget {
   @override
@@ -29,23 +30,29 @@ class HomeScreenState extends State<HomeScreen> {
   
   @override
   Widget build(BuildContext context) {
-    // New method:
-    Column _buildRecipes(List<Recipe> recipesList) {
-      return Column(
-        children: <Widget>[
-          Expanded(
-            child: ListView.builder(
-              itemCount: recipesList.length,
-              itemBuilder: (BuildContext context, int index) {
-                return ListTile(
-                  title: Text(recipesList[index].name),
-                );
-              },
-            ),
+    Padding _buildRecipes(List<Recipe> recipesList) { // New code
+      return Padding( // New code
+          // Padding before and after the list view:
+          padding: const EdgeInsets.symmetric(vertical: 5.0), // New code
+          child: Column(
+            children: <Widget>[
+              Expanded(
+                child: ListView.builder(
+                  itemCount: recipesList.length,
+                  itemBuilder: (BuildContext context, int index) {
+                    return new RecipeCard(
+                      recipe: recipesList[index],
+                      inFavorites:
+                          userFavorites.contains(recipesList[index].id),
+                      onFavoriteButtonPressed: _handleFavoritesListChanged,
+                    );
+                  },
+                ),
+              ),
+            ],
           ),
-        ],
-      );
-    }
+        ); // New code
+      }
 
     const double _iconSize = 20.0;
 

@@ -14,6 +14,8 @@ class Recipe{
 	final List<String> preparation;
 	final String imageURL;
 
+	String get getDurationString => prettyDuration(this.duration);
+
 	const Recipe({
 	  this.id,
 	  this.type,
