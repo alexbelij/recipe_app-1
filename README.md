@@ -26,7 +26,7 @@ Below is a list of articles for the sample app as well as accompanying [github b
 | Article #        | Progress           | Remark|
 | ------------- |:-------------:| ---|
 | 1      | ✅ | done |
-| 2      | ❌ | WIP |
+| 2      | ✅ | done |
 | 3      | ❌ | WIP |
 | 4      | ❌ | WIP |
 | 5      | ❌ | WIP |
