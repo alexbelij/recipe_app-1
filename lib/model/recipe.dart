@@ -1,4 +1,4 @@
-import 'package: duration/duration.dart';
+import 'package:duration/duration.dart';
 
 enum RecipeType{
 	food,
@@ -15,7 +15,7 @@ class Recipe{
 	final String imageURL;
 
 	const Recipe({
-	  this.id;
+	  this.id,
 	  this.type,
 	  this.name,
 	  this.duration,
