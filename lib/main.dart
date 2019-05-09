@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'app.dart';
+import 'package:recipe_app/app.dart';
+import 'package:recipe_app/state_widget.dart';
 
-void main() => runApp(
-      new RecipesApp(),
-    );
+void main() => runApp(new StateWidget(
+      child: new RecipesApp(),
+    ));
